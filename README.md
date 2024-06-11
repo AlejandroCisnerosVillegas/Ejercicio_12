@@ -1,3 +1,3 @@
-# Ejercicio 12 
-## _Subir y Mostrar Imágenes en PHP y HTML_
-Lo que hace este proyecto es guardar imágenes en una carpeta y mostrar en una tabla toda las imágenes registradas, cada fila muestra una imagen con su respectiva información como el tamaño en KB, el nombre completo, el ancho y la atura. Además, esta validado para que solo pueda aceptar imágenes con formato PNG y JPEG. 
+# Sistema de Gestión y Visualización de Imágenes
+## _Área: Actividades_
+Esta actividad implementa un sistema web para la subida y visualización de imágenes, desarrollado utilizando tecnologías estándar de desarrollo web como HTML, CSS y PHP. El objetivo del proyecto es facilitar la carga de imágenes y su posterior visualización en una tabla que muestra detalles como el nombre de la imagen, su tamaño y dimensiones.
