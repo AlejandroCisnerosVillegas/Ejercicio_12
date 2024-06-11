@@ -1,90 +1,73 @@
-*
-{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-    font-family: sans-serif;
-
-}
-body
-{
-	margin:0;
-	padding:0;
-	height: 100%;
-    width: 100%;
-	display: flex;
-	flex-direction: column;
-		background:#f3f3f3;
-}
-.cajafuera
-{
-	background:#f3f3f3;
-    width: 100vw;
-    height: 50vh;
-    display: grid;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
-
-input[type='submit']{
-    width: auto;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    border: 0;
-    outline: none;
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
-	border:1px solid black;
-	font-size:20px;
-	color:white;
-	background-color: #1C62C1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-input[type='file']{
-    width: 30%;
-    padding: 10px 30px;
-    cursor: pointer;
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-input {
     display: block;
-    margin: auto;
-    border: 0;
-    outline: none;
-    border-radius: 10px;
-	border:1px solid black;
-	font-size:20px;
-	color:black;
-
-}
-table
-{
-	text-align:center;
-    width: 80%;
-    border-collapse: collapse;
-    border: 1px solid black;
-	margin:50px auto;
-    background: white;
-}
-th 
-{
-    background: steelblue;
-    height: 40px;
-    font-weight: lighter;
-    text-shadow: 0 1px 0 #38678f;
-    color: white;
-    border: 1px solid #38678f;
-    box-shadow: inset 0px 1px 2px #568ebd;
-    transition: all 0.2s;
-	font-size: 20px;
-
-}
-tr 
-{
-    border-bottom: 1px solid #cccccc;
-	width:100%;
-}
-td 
-{
-    border: 1px solid #cccccc;
+    margin: 0 auto;
     padding: 10px;
-    transition: all 0.2s;
-	font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #007bff;
+}
+
+.image-list {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estilos para las imágenes en la tabla */
+td img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
 }
