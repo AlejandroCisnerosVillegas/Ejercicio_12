@@ -16,7 +16,7 @@ El listado se genera dinámicamente mediante un script PHP que lee el directorio
 
 Esta actividad demuestra habilidades en el desarrollo web frontend y backend, incluyendo la gestión de archivos y la generación dinámica de contenido. Es un ejemplo práctico de cómo crear una interfaz de usuario intuitiva para la carga y visualización de archivos, integrando eficientemente tecnologías HTML, CSS y PHP.
 
-**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_12.com](https://alejandrovillegas.net/projects/exercise-12/index.php)
+**Consulta la versión preliminar de la actividad aquí:** [https://ejercicio_12.com](https://www.alejandrovillegas.dev/projects/exercise-12/index.php)
 
 # 📌 Información de la Actividad
 
@@ -28,7 +28,7 @@ Esta actividad ha sido desarrollado como parte del portafolio de soluciones tecn
 
 - **Fecha de Desarrollo**: 09 de diciembre de 2018
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 ## 🔧 Guía de Instalación y Configuración de la Actividad
 
